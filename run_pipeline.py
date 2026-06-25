@@ -71,3 +71,7 @@ def run_genomics_pipeline():
 
 if __name__ == "__main__": 
     run_genomics_pipeline()
+    # 🔗 Trigger the automated asset generation phase
+    print("\n--- Running Phase 5: Visual Asset Generation ---")
+    from plot_matrix import generate_heatmap
+    generate_heatmap()
