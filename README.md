@@ -19,6 +19,7 @@ The pipeline identified two distinct genomic classes within the captured dataset
 * **The Bacterial Hosts:** Strains `CP123932` and `CP123939` capture full *Klebsiella pneumoniae* chromosomes exceeding **5.2 Million BP** with a dense, GC-rich architecture (57.4%).
 
 ### 2. Mathematical Interpretation of the Correlation Matrix
+![Genomic Correlation Heatmap](correlation_heatmap.png)
 ```text
 ┌──────────────────┬─────────────────────┬───────────────────┬──────────────────┬──────────────────┐
 │ Genome_Length_BP ┆ True_GC_Content_Pct ┆ Motif_CGATC_Count ┆ Motif_GATC_Count ┆ Motif_CCGG_Count │
